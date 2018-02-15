@@ -1,9 +1,5 @@
 language: php
 php: 7.1
-deploy: &heroku
-  provider: heroku
-  app: still-ocean-94121
-  api_key: c1aed6fd-16ce-49a7-ae73-ccc506c2f310
 before_script:
   - composer install
 script:
