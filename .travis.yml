@@ -1,11 +1,9 @@
 language: php
 php: 7.2.2
 before_script:
-  - composer require phpunit/phpunit
   - composer install
-  - docker run --rm -v $PWD:/app phpqa/php-cs-fixer fix --show-progress=estimating --verbose .
+script:
   - docker run --rm -v $PWD:/app phpqa/security-checker security:check
-  - php ./vendor/phpunit/phpunit/phpunit
 notifications:
   email:
     on_success: never
