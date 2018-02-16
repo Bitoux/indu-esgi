@@ -2,7 +2,7 @@ language: php
 php: 7.2.2
 before_script:
   - composer install
-- docker run --rm -v $PWD:/app phpqa/phpcs .
+  - docker run --rm -v $PWD:/app phpqa/phpcs .
   - docker run --rm -v $PWD:/app phpqa/security-checker security:check
   - phpunit
 notifications:
