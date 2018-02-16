@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9858d94-0ddf-40a1-916e-2e374488dd49" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/WebAppTreeTest.php" afterPath="$PROJECT_DIR$/tests/WebAppTreeTest.php" />
-    </list>
+    <list default="true" id="c9858d94-0ddf-40a1-916e-2e374488dd49" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -277,12 +275,12 @@
       <workItem from="1518777701317" duration="3274000" />
       <workItem from="1518781543603" duration="143000" />
       <workItem from="1518782276546" duration="5000" />
-      <workItem from="1518782302134" duration="1356000" />
+      <workItem from="1518782302134" duration="1479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10863000" />
+    <option name="totallyTimeSpent" value="10986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
