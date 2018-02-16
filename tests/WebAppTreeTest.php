@@ -15,7 +15,7 @@ class WebAppTreeTest extends PHPUnit\Framework\TestCase
    }
 
    public function testArray(){
-        $tab = array(1,2,3,4,5);
+        $tab = array(1,2,3,4);
         $this->assertTrue(sizeof($tab) == 5);
    }
 }
